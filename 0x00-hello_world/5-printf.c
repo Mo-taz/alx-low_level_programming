@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * Describtion : A C program using printf function
+ * Description: A C program Using printf function.
  *
- * Return : Always 0 (Success)
- */
+ * Return: Always 0 (Success)
+*/
 
 int main(void)
 {
