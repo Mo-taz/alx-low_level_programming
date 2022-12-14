@@ -1,16 +1,17 @@
-#include <unistd.h>
+#include<unistd.h>
 
 /**
- * main: Entry Point
+ * main - Entry point
  *
- * Description: print using write function
+ * Description: print a quote using write function
  *
- * Return: Return error (1)
+ * Return: This time we return an error 1.
 */
 
 int main(void)
 {
-	char string[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1,string,59);
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, str, 59);
 	return (1);
 }
